@@ -436,6 +436,8 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
     libprotobuf-cpp-lite-vendorcompat
 
+#Disable Apex
+OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Wifi
 PRODUCT_PACKAGES += \
